@@ -1,0 +1,9 @@
+$inputBorderRadius: $border-radius !default;
+$inputColorActive: $color-success;
+$color-background-input: darken($color-ebony-clay-2, 12%);
+$color-border-input: $color-divider;
+
+:export {
+	borderRadius: $inputBorderRadius;
+	colorActive: $inputColorActive;
+}

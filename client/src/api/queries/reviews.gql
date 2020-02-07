@@ -1,0 +1,12 @@
+query reviews {
+  reviews {
+    name,
+    message,
+    sentiment {
+      score,
+      comparative,
+      positive,
+      negative
+    }
+  }
+}

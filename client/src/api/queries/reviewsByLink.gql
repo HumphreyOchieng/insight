@@ -1,0 +1,12 @@
+query reviewsByLink ($link: String!) {
+  reviewsByLink (link: $link) {
+    name,
+    message,
+    sentiment {
+      score,
+      comparative,
+      positive,
+      negative
+    }
+  }
+}
