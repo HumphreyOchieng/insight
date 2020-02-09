@@ -16,7 +16,7 @@ export default {
   name: 'App',
   computed: {
     layout() {
-      return 'layout-' + (this.$route.meta.layout || 'default');
+      return 'layout-' + (this.$route.meta.layout || 'no-bars');
     }
   },
   components: {

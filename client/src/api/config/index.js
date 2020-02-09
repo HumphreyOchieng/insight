@@ -1,7 +1,7 @@
 import ApolloClient from 'apollo-boost';
 
 const apolloClient = new ApolloClient({
-	uri :process.env.APP_URI
+	uri :'http://localhost:8000/graphql'
 });
 
 export default apolloClient;
