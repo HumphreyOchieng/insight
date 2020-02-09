@@ -38,6 +38,5 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: $color-content;
   height: 100%;
-  background: $color-background;
 }
 </style>

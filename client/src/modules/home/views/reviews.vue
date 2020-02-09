@@ -38,6 +38,8 @@ export default {
 .reviews {
 	display: flex;
 	flex-flow: column nowrap;
+	margin-left: 1em;
+	margin-right: 2em;
 }
 .review {
 	display: flex;
