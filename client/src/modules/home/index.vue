@@ -31,7 +31,6 @@ export default {
 			this.reviews = this.allReviews;
 		}).catch(err => {
 			alert(err);
-			console.log(err);
 		})
 	}
 };
