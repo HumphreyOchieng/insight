@@ -1,5 +1,6 @@
 <template>
 <div :class='$style.container'>
+	<h3>Dashboard</h3>
 	<div :class="$style.reviews">
 		<base-reviews :reviews="reviews"></base-reviews>
 	</div>
